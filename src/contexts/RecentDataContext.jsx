@@ -26,9 +26,6 @@ function RecentDataProvider({ children }) {
       setGasPrice(gasPrice.toString());
     }
     getRecentBlockNumber();
-
-    const intervalId = setInterval(getRecentBlockNumber, 60000);
-    return () => clearInterval(intervalId);
   }, []);
 
   return (
