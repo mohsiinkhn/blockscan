@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  margin-bottom: 1.88rem !important;
+  box-shadow: var(--shadow);
+}

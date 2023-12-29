@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  padding: 3rem 9.38rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-items: center;
+
+  background: #081d35;
+}

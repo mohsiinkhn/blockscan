@@ -1,0 +1,21 @@
+.navElement {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  font-size: var(--font-size--2);
+}
+
+.value {
+  font-size: var(--font-size--2);
+  font-weight: 500;
+  text-align: right;
+  color: var(--color-brand--1);
+}

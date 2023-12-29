@@ -1,0 +1,21 @@
+.flexbox {
+  display: flex;
+  gap: 1.88rem;
+}
+
+.card {
+  width: 50%;
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+  background: var(--color-light--0);
+}
+
+.list {
+  padding: 1rem 1.25rem;
+}
+
+.title {
+  font-size: var(--font-size--4);
+  font-weight: 500;
+  margin: 1.25rem;
+}

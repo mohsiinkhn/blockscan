@@ -1,0 +1,30 @@
+.element {
+  width: 50%;
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.4rem 0rem;
+  align-items: center;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: var(--font-size--4);
+  text-transform: uppercase;
+}
+
+.value {
+  font-size: var(--font-size--4);
+  font-weight: 500;
+  text-align: right;
+  color: var(--color-brand--1);
+}

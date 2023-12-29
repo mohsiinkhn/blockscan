@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500&display=swap");
+
+:root {
+  --color-brand--1: #066a9c;
+  --color-brand--2: #081d35;
+  --color-bg: #fcfcfe;
+
+  --color-dark--0: #000000;
+  --color-dark--1: #212529;
+  --color-dark--2: #6c747d;
+  --color-dark--3: #70777d;
+  --color-light--0: #fff;
+  --color-light--1: #e9ecef;
+
+  --font-size--0: 0.625rem;
+  --font-size--1: 0.75rem;
+  --font-size--2: 0.875rem;
+  --font-size--3: 1rem;
+  --font-size--4: 1.125rem;
+  --font-size--5: 1.25rem;
+  --font-size--6: 1.625rem;
+
+  --shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05);
+  --padding-card: 1rem 1.25rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: var(--font-size--2);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Readex Pro", sans-serif;
+  color: var(--color-dark--1);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: var(--font-size--3);
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-light--0);
+  transition: all 0.2s;
+}
+
+hr {
+  color: var(--color-light--1);
+  border: 0;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  opacity: 1;
+}
+
+section {
+  padding: 2rem 9.38rem 6rem 9.38rem;
+  background: var(--color-bg);
+}
+
+section h3 {
+  font-size: var(--font-size--5);
+  color: var(--color-dark--2);
+  font-weight: 400;
+  margin: 0rem 0rem 1.25rem 1rem;
+}
+
+.customLink {
+  text-decoration: none;
+  color: var(--color-brand--1);
+}

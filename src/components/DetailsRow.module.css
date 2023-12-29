@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  padding: 1rem 0rem;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex-shrink: 0;
+  color: var(--color-dark--1);
+}
+
+.title {
+  color: var(--color-dark--2);
+  width: 30%;
+  flex-shrink: 0;
+}

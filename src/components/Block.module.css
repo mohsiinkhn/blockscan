@@ -1,0 +1,28 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.txns {
+  text-align: center;
+}
+
+.timestamp {
+  color: var(--color-dark--2);
+  text-align: right;
+  font-weight: 300;
+}

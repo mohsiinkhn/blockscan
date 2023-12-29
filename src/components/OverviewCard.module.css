@@ -1,0 +1,12 @@
+.card {
+  padding: 1rem 1.25rem;
+  background: var(--color-light--0);
+  border-radius: 1.25rem;
+  margin-bottom: 1.88rem !important;
+  box-shadow: var(--shadow);
+}
+
+.flexbox {
+  display: flex;
+  gap: 3.75rem;
+}
